@@ -68,7 +68,7 @@ function Work() {
               Phoenix Sports Africa
             </h1>
             <p className="text-foreground/65 ">
-              Spots Management System for St. Christophers' International School
+              Spots Management System for St. Christophers&apos; International School
             </p>
             <p className="text-foreground/40">
               A cross-platform mobile application designed and built for Phoenix

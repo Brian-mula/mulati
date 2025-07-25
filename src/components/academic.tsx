@@ -28,7 +28,7 @@ function Academics() {
                     <div className="space-y-2">
                     <div className="flex items-center gap-2">
                         <h3 className="text-xl font-bold">University of Eastern Africa,baraton</h3>
-                        <span className="text-sm text-muted-foreground"> Bachelor's in Software Engineering</span>
+                        <span className="text-sm text-muted-foreground"> Bachelor&apos;s in Software Engineering</span>
                     </div>
                     <p className="text-sm text-muted-foreground">
                         2019 - 2023

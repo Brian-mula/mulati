@@ -14,7 +14,7 @@ function Abount() {
               Who I Am
             </h1>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I'm Brian Mulati, a versatile tech professional skilled in
+              I&apos;m Brian Mulati, a versatile tech professional skilled in
               full-stack development, DevOps, UI/UX design, and cybersecurity. I
               build end-to-end digital solutions that are scalable,
               user-centric, and secure. With strong experience in cloud
