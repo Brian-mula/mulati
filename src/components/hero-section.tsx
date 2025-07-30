@@ -17,14 +17,14 @@ function HeroSection() {
                         <span>Contact Me</span>
                         <Phone className="size-4" />
                         </a>
-                        <a className="inline-flex items-center space-x-1 justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-transparent text-white border border-foreground h-10 px-6 py-2 transition-all hover:scale-105" href="#contact">
+                        <a className="inline-flex items-center space-x-1 justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-transparent text-white border border-foreground h-10 px-6 py-2 transition-all hover:scale-105" href="#work">
                             <span>Projects</span>
                             <GitForkIcon className="size-4" />
                         </a>
-                        <button className=" justify-center space-x-1 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 flex items-center gap-2 transition-all hover:scale-105">
+                        <a href="/brian-mulati-resume.pdf" className=" justify-center space-x-1 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 flex items-center gap-2 transition-all hover:scale-105">
                             <span>Download Resume</span>
                             <DownloadCloud className="size-4" />
-                        </button>
+                        </a>
                     </div>
                     <div className="flex items-center gap-4 text-muted-foreground">
                         <a className="hover:text-foreground transition-colors hover:scale-110" href="https://github.com/Brian-mula" target="_blank" rel="noopener" >
