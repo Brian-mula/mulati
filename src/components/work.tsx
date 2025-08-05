@@ -143,14 +143,14 @@ function Work() {
                 <span className="text-xs">Azure</span>
               </div>
             </div>
-            <a
+            {/* <a
           className="px-2 py-1 border border-foreground rounded-full hover:text-foreground transition-colors hover:scale-110"
           href={designUrl}
           target="_blank"
           rel="noopener"
         >
           View project
-        </a>
+        </a> */}
           </div>
         </div>
         
