@@ -1,8 +1,10 @@
 import { Code } from "lucide-react";
 
 function Work() {
-  const designUrl =
-    "https://www.figma.com/design/BidJHPlemFRKZNvUzLLehZ/phoenix-sports-Africa?node-id=0-1&t=0nsGjEN7NIXZ5T0N-0";
+  const worduiUrl =
+    "https://wordui.vercel.app";
+
+    const radionetworkurl = "https://radio-platform-two.vercel.app"
   return (
     <section
       id="work"
@@ -25,14 +27,13 @@ function Work() {
         <div className="">
           <div className="rounded-lg bg-card text-card-foreground shadow-sm overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-border px-4 py-4">
             <h1 className="text-2xl font-bold tracking-tighter sm:text-2xl">
-              Wezesha
+              The Network
             </h1>
             <p className="text-foreground/65 ">
-              Agritech Platform and Logistics
+            Radio Operations, Revenue & Engagement Management Platform
             </p>
             <p className="text-foreground/40">
-              Wezesha is a Kenyan e-commerce platform that revolutionizes
-              agricultural supply chains and logistics.
+            This platform is a full-stack, multi-tenant system designed to manage the entire lifecycle of radio operations across media houses, stations, shows, and presenters. It provides role-based dashboards for Master Admins, Media House Admins, Station Admins, and Presenters—each supported by powerful tools for content management, finance tracking, and performance monitoring.
             </p>
 
             <h2 className="text-sm font-medium mt-4 flex items-center">
@@ -58,6 +59,14 @@ function Work() {
               <div className="bg-foreground/10 py-1 px-2 flex justify-center items-center rounded-full">
                 <span className="text-xs">AWS</span>
               </div>
+              <a
+          className="px-2 py-1 border border-foreground rounded-full hover:text-foreground transition-colors hover:scale-110"
+          href={radionetworkurl}
+          target="_blank"
+          rel="noopener"
+        >
+          View project
+        </a>
             </div>
           </div>
         </div>
@@ -143,14 +152,14 @@ function Work() {
                 <span className="text-xs">Azure</span>
               </div>
             </div>
-            {/* <a
+            <a
           className="px-2 py-1 border border-foreground rounded-full hover:text-foreground transition-colors hover:scale-110"
-          href={designUrl}
+          href={worduiUrl}
           target="_blank"
           rel="noopener"
         >
           View project
-        </a> */}
+        </a>
           </div>
         </div>
         
