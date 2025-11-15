@@ -57,9 +57,17 @@ function Work() {
                 <span className="text-xs">MongoDB</span>
               </div>
               <div className="bg-foreground/10 py-1 px-2 flex justify-center items-center rounded-full">
-                <span className="text-xs">AWS</span>
+                <span className="text-xs">Digital Ocean</span>
               </div>
-              <a
+              <div className="bg-foreground/10 py-1 px-2 flex justify-center items-center rounded-full">
+                <span className="text-xs">Redis</span>
+              </div>
+              <div className="bg-foreground/10 py-1 px-2 flex justify-center items-center rounded-full">
+                <span className="text-xs">RabitMq</span>
+              </div>
+              
+            </div>
+            <a
           className="px-2 py-1 border border-foreground rounded-full hover:text-foreground transition-colors hover:scale-110"
           href={radionetworkurl}
           target="_blank"
@@ -67,7 +75,6 @@ function Work() {
         >
           View project
         </a>
-            </div>
           </div>
         </div>
 
